@@ -1,0 +1,28 @@
+{
+  "name": "tg2-commander",
+  "version": "1.0.9",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf publish",
+    "package": "npm run clean && tsc -P ./tsconfig.json && cp package.json publish"
+  },
+  "bin": {
+    "tiger": "./test/test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/node": "^10.12.18",
+    "yargs": "^8.0.2",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "commander": "^2.19.0",
+    "reflect-metadata": "^0.1.12"
+  }
+}
