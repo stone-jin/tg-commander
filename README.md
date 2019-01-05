@@ -1,4 +1,4 @@
-<p align="center"><img src="./assets/logo.png" alt="tg-commander logo" width="150px" height="150px"></p>
+<p align="center"><img src="https://github.com/stone-jin/tg-commander/raw/master/assets/logo.png" alt="tg-commander logo" width="150px" height="150px"></p>
 
 ## tg-commander [![NPM version](https://img.shields.io/npm/v/tg2-commander.svg?style=flat-square)](https://npmjs.com/package/tg2-commander) [![NPM downloads](https://img.shields.io/npm/dm/tg2-commander.svg?style=flat-square)](https://npmjs.com/package/tg2-commander)
 
