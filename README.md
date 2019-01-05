@@ -1,6 +1,6 @@
-<p align="center"><img src="./assets/logo.png" alt="tg-commander logo" width="200px"></p>
+<p align="center"><img src="./assets/logo.png" alt="tg-commander logo" width="150px" height="150px"></p>
 
-## tg-commander [![NPM version](https://img.shields.io/npm/v/tg-commander.svg?style=flat-square)](https://npmjs.com/package/tg-commander) [![NPM downloads](https://img.shields.io/npm/dm/tg-commander.svg?style=flat-square)](https://npmjs.com/package/tg-commander)
+## tg-commander [![NPM version](https://img.shields.io/npm/v/tg2-commander.svg?style=flat-square)](https://npmjs.com/package/tg2-commander) [![NPM downloads](https://img.shields.io/npm/dm/tg2-commander.svg?style=flat-square)](https://npmjs.com/package/tg2-commander)
 
 :dart: A laconic and Convenient tools for commander.
 
