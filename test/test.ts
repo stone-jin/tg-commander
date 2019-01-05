@@ -27,4 +27,12 @@ class Hello{
         console.log(this.target);
         console.log("====")
     }
+
+    @Command({
+        cmd: 'n <product>',
+        description: 'new product'
+    })
+    newProduct(product: string){
+        console.log("you want to create product: " + product);
+    }
 }

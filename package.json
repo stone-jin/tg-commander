@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf publish",
-    "package": "npm run clean && tsc -P ./tsconfig.json && cp package.json publish"
+    "package": "npm run clean && tsc -P ./tsconfig.json && cp package.json publish && cp README.md publish"
   },
   "bin": {
     "tiger": "./test/test.js"

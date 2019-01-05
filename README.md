@@ -19,6 +19,6 @@ npm i tg-commander -g
 2. create a product
 
 ```bash
-tc new ${product}
+tc n ${product}
 ```
 
