@@ -1,6 +1,6 @@
 {
   "name": "tg-commander",
-  "version": "1.0.12",
+  "version": "1.0.14",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
