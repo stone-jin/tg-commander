@@ -1,6 +1,6 @@
 {
-  "name": "tg2-commander",
-  "version": "1.0.11",
+  "name": "tg-commander",
+  "version": "1.0.12",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -9,8 +9,15 @@
     "clean": "rm -rf publish",
     "package": "npm run clean && tsc -P ./tsconfig.json && cp package.json publish && cp README.md publish"
   },
+  "keywords": [
+    "commander",
+    "tiger",
+    "tiger-commander",
+    "cli",
+    "node"
+  ],
   "bin": {
-    "tiger": "./test/test.js"
+    "tc": "./test/test.js"
   },
   "author": "",
   "license": "ISC",
