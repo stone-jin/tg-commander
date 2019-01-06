@@ -6,7 +6,7 @@
 
 ### who use tg-commander?
 
-[Nestease](https://www.163.com/)
+[Netease](https://www.163.com/)
 
 ### Use
 
