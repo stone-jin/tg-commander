@@ -1,3 +1,4 @@
+import "reflect-metadata";
 
 export class FunctionReflectUtils {
     public static getFunctionTypes(constructor: () => any): any[] {

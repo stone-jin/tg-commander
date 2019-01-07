@@ -1,3 +1,4 @@
+import "reflect-metadata";
 import { TgOption } from "../types/tg-option.type";
 
 export function TgOptions(name: string, description: string, defaultValue?: any) {

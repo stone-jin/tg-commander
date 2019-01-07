@@ -4,7 +4,7 @@ import { Command, TgCommand, TgOptions } from "../lib";
 import { HelloService } from "./hello";
 
 @TgCommand
-class Hello {
+export class HelloCommand {
 
     @TgOptions("-p, --peppers [type]", "Add peppers")
     public type: string;

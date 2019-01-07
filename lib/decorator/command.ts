@@ -1,3 +1,4 @@
+import "reflect-metadata";
 import { CommandOptions } from "../types/command-options.type";
 import { ExCommandOptions } from "../types/ex-command-options.type";
 
