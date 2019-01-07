@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import { Command, TgCommand, TgOptions } from "../lib";
+import { HelloService } from "./hello";
 
 @TgCommand
 class Hello {
@@ -11,9 +12,14 @@ class Hello {
     @TgOptions("-t, --target [taget]", "Add peppers", "dev")
     public target: string;
 
+    constructor(private helloService: HelloService) {
+
+    }
+
     @Command("rmdir <cmd> [env]")
     public hello(cmd: any, env: any) {
         console.log(cmd, env);
+        console.log(this.helloService.name);
     }
 
     @Command({
@@ -21,7 +27,6 @@ class Hello {
         description: "create module",
     })
     public createModule(module: any) {
-        const self: any = this;
         console.log(this.type);
         console.log("you want to create module: " + module);
         console.log(this.target);
@@ -29,10 +34,12 @@ class Hello {
     }
 
     @Command({
-        cmd: "n <product>",
+        cmd: "new <product>",
+        alias: "n",
         description: "new product",
     })
     public newProduct(product: string) {
+        console.log(process.cwd());
         console.log("you want to create product: " + product);
     }
 }
